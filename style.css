@@ -1,0 +1,143 @@
+@import url("https://googleapis.com");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headcontainer {
+  width: 65vw;
+}
+.headstyle {
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 2px solid #18202b;
+}
+.headstyle ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+.headstyle h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.headstyle a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.main1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.main1 img {
+  width: 400px;
+  height: 200px;
+}
+.main1desc {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main1desc h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.main1desc p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.mainbutton {
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.content {
+  flex: 1;
+}
+footer {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 25px;
+}
+footer p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.content1 {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.c1-child {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.c1-desc {
+  display: flex;
+  justify-content: center;
+}
+.frames {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.frame {
+  width: 200px;
+  height: 200px;
+}
+
+.frame p {
+  font-size: 18px;
+  color: #1f2947;
+  text-align: justify;
+  text-align-last: center;
+}
+.frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px rgb(25, 55, 109) solid;
+  border-radius: 10px;
+}
