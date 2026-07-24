@@ -103,6 +103,7 @@ footer p {
 }
 
 .content1 {
+  height: 70vh;
   margin: 15px;
   display: flex;
   flex-direction: column;
@@ -140,4 +141,69 @@ footer p {
   object-fit: cover;
   border: 5px rgb(25, 55, 109) solid;
   border-radius: 10px;
+}
+
+.content2 {
+  height: 70vh;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quotes {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 800px;
+}
+.quote1 p {
+  font-size: 24px;
+  text-align: justify;
+  font-style: italic;
+}
+.quote2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.quote2 p {
+  font-size: 24px;
+  text-align: justify;
+  font-weight: 900;
+}
+.content3 {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c1-container {
+  height: 20vh;
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(63, 146, 224);
+  border-radius: 5px;
+}
+.c1-text h3 {
+  color: white;
+  font-size: 20px;
+}
+.c1-text p {
+  color: rgba(218, 218, 218, 0.849);
+}
+.c1-container button {
+  background: rgb(63, 146, 224);
+  border: white 2px solid;
+  color: white;
+  padding: 5px 25px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
 }
